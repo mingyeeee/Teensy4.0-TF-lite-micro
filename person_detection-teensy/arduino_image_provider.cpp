@@ -96,6 +96,7 @@ TfLiteStatus InitCamera(tflite::ErrorReporter* error_reporter) {
   // Specify the smallest possible resolution
   myCAM.OV2640_set_JPEG_size(OV2640_160x120);
   delay(100);
+  // Set this to Office, Home, Sunny, Cloudy, or Auto to get optimal camera lighting adjustment 
   myCAM.OV2640_set_Light_Mode(Office);
   delay(100);
   return kTfLiteOk;
