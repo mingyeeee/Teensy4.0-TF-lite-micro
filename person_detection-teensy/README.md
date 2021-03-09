@@ -1,4 +1,4 @@
-# Person Detection
+# Person Detection from Tensorflow Lite For Micro Examples 
 Uses an Arducam mini 2mp plus and several LEDs to indicate detection and inference.
 [Source code](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection/arduino)
 
